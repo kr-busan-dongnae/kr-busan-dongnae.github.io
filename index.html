@@ -117,35 +117,241 @@
   ]
 }
   </script>
-  <style>
-:root { --fg:#1a1a2e; --muted:#5c5c72; --accent:#2d5bff; --bg:#ffffff; --card:#f6f7fb; --line:#e6e8f0; }
-* { box-sizing: border-box; }
-body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; color:var(--fg); background:var(--bg); line-height:1.7; }
-main { max-width: 760px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
-header { padding: 2rem 0 1rem; border-bottom: 2px solid var(--line); margin-bottom: 1.5rem; }
-.eyebrow { color: var(--accent); font-weight: 600; margin: 0 0 .25rem; letter-spacing: .02em; }
-h1 { font-size: 2.4rem; margin: 0; }
-h2 { font-size: 1.25rem; margin: 2rem 0 .5rem; padding-left: .6rem; border-left: 4px solid var(--accent); }
-section p { margin: .25rem 0 0; }
-ul { margin: .5rem 0 0; padding-left: 1.2rem; }
-li { margin: .25rem 0; }
-.facts, .symbols { list-style: none; padding: 1rem 1.2rem; background: var(--card); border-radius: 12px; }
-.faq details { border: 1px solid var(--line); border-radius: 10px; padding: .5rem .9rem; margin: .5rem 0; }
-.faq summary { cursor: pointer; font-weight: 600; }
-.faq details p { margin: .5rem 0 .25rem; color: var(--muted); }
-.sources { font-size: .9rem; color: var(--muted); }
-a { color: var(--accent); }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; }
-</style>
+  <script id="region-data" type="application/json">
+{
+  "characteristics": "동래구의 인구는 2024년 기준 약 27만 명으로, 명륜·수안·안락·명장 일대에 오래된 주거지가 자리해 안정적인 정주 인구를 유지하는 전형적인 도심 주거·행정 구역입니다. 관공서와 교육기관이 밀집해 옛 동래부 이래의 행정 중심 성격이 이어지며, 동래교육지원청과 동래향교가 이곳에 있어 부산 교육의 전통 거점으로 통합니다. 온천동 일대는 대규모 목욕시설과 호텔, 동래파전·곰장어로 대표되는 향토 먹거리 상권이 형성된 온천 관광지구입니다. 사직동에는 사직야구장(부산종합운동장)이 있어 프로야구 롯데 자이언츠의 홈구장으로서 부산 스포츠 응원 문화의 상징 공간이 되고 있습니다. 도심 재정비를 통한 아파트 단지 개발과 온천천 생태하천 복원이 병행되어, 전통 유산과 현대적 생활 인프라가 공존하는 것이 이 지역의 뚜렷한 특징입니다. 구화는 매화, 구목은 소나무, 구조는 학으로, 동래학춤으로 상징되는 학의 고장이기도 합니다.",
+  "coords": {
+    "lat": 35.2049,
+    "lng": 129.0838
+  },
+  "cultural_heritage": [
+    {
+      "description": "복천동 구릉에 자리한 삼국·가야시대 고분군으로 1981년 사적으로 지정되었으며 9천여 점의 유물이 출토되었습니다. 인접한 복천박물관은 169기의 유구와 토기·철기류를 전시해 부산의 고대사를 조명하는 고고 전문 박물관입니다.",
+      "name": "복천동 고분군(사적)과 복천박물관"
+    },
+    {
+      "description": "동래부 동헌은 옛 동래도호부 관아의 중심 건물로 부사가 정무를 보던 곳이며, 동래향교는 조선시대 지방 교육을 담당한 유교 교육기관입니다. 두 건물 모두 동래가 부산의 행정·교육 중심이었음을 증언하는 문화유산입니다.",
+      "name": "동래부 동헌과 동래향교"
+    },
+    {
+      "description": "동래 온천동 일대에서 전래된 전통 민속 무용으로, 학의 우아한 자태를 형상화한 즉흥적 춤사위가 특징입니다. 동래야류·동래지신밟기와 함께 동래 지역 전통 예술의 대표 종목으로 전승되고 있습니다.",
+      "name": "동래학춤"
+    },
+    {
+      "description": "임진왜란 동래성 전투와 송상현 부사의 항전 정신을 기리는 역사 체험형 축제입니다. 북문광장·문화회관·온천천 일원에서 동래부사행렬, 동래성전투 재현, 동래장터 운영 등이 펼쳐집니다.",
+      "name": "동래읍성역사축제"
+    }
+  ],
+  "faq": [
+    {
+      "answer": "'동래(東萊)'는 동쪽의 내산(萊山), 곧 신선이 산다는 봉래산에서 비롯된 이름으로 전합니다. 757년 신라 경덕왕이 동래군으로 개칭한 이래 천 년 넘게 이어져 온 지명입니다.",
+      "question": "동래구라는 이름은 어디서 유래했나요?"
+    },
+    {
+      "answer": "동래온천은 우리나라에서 가장 오래된 온천의 하나로, 수온이 63℃ 안팎인 약알칼리성 식염천입니다. 온천동 일대의 온천장 관광지구에 목욕시설과 호텔, 동래파전 상권이 형성되어 있습니다.",
+      "question": "동래온천은 어떤 온천인가요?"
+    },
+    {
+      "answer": "동래구청은 명륜동 명륜로94번길 55에 위치합니다. 도시철도 1호선·4호선 동래역과 가까워 대중교통으로 접근하기 편리합니다.",
+      "question": "동래구청은 어디에 있나요?"
+    },
+    {
+      "answer": "사직야구장(부산종합운동장 야구장)은 프로야구 롯데 자이언츠의 홈구장입니다. 사직동에 있으며 부산 스포츠 응원 문화의 상징적인 공간입니다.",
+      "question": "사직야구장은 어느 팀의 홈구장인가요?"
+    },
+    {
+      "answer": "임진왜란 항전의 현장인 동래읍성과 충렬사, 가야 문화를 보여주는 복천동 고분군과 복천박물관, 옛 관아 동래부 동헌 등이 있습니다. 매년 동래읍성역사축제로 이 역사가 재현됩니다.",
+      "question": "동래구에서 볼 수 있는 대표적인 역사 유적은 무엇인가요?"
+    },
+    {
+      "answer": "구를 남북으로 관통하는 온천천 시민공원이 부산의 대표적인 봄 벚꽃 명소입니다. 수변 산책로와 자전거길이 잘 조성되어 있어 봄철 꽃놀이와 산책을 함께 즐길 수 있습니다.",
+      "question": "동래구에서 봄꽃 산책을 즐기려면 어디로 가면 좋나요?"
+    }
+  ],
+  "geography_nature": "동래구는 부산 중앙부 내륙에 자리하며 서쪽으로 부산진구, 남쪽으로 연제구, 북쪽으로 금정구, 동쪽으로 해운대구와 맞닿아 바다에 직접 면하지 않은 내륙형 자치구입니다. 서북쪽 경계에는 부산의 진산인 금정산 자락이 흘러내리고, 그 기슭의 금강공원 일대는 화강암 노두와 울창한 수림이 어우러진 명승지를 이룹니다. 구의 한복판을 온천천이 북에서 남으로 가로질러 흐르는데, 이는 금정산에서 발원하여 금정구·동래구·연제구를 거쳐 수영강으로 합류하는 지방하천으로 봄이면 벚꽃 산책로로 유명합니다. 동장대와 서장대가 있는 마안산(馬鞍山) 능선이 동래읍성의 자연 성벽 구실을 하며 시가지 동편을 감싸고, 도심 곳곳에서는 63℃ 안팎의 약알칼리성 식염천인 동래온천수가 솟아납니다. 대체로 온천천 유역의 평지에 시가지가 발달하고 서북쪽으로 갈수록 산지로 높아지는 지형을 보입니다. 면적은 약 16.63㎢로 부산 자치구 가운데 아담한 편에 속합니다.",
+  "history": "동래는 삼한시대 독로국(瀆盧國)에 뿌리를 두었으며 삼국시대에는 거칠산군(居漆山郡)이라 불리다가 757년 신라 경덕왕이 동래군으로 이름을 바꾸었습니다. 조선 명종 2년인 1547년에는 동래도호부로 승격되어 대일 외교와 국방을 총괄하는 경상도 동남 해안의 요충으로 자리 잡았고, 부사가 다스리는 관아 동래부 동헌이 정치의 중심이 되었습니다. 1592년 임진왜란이 일어나자 동래부사 송상현은 \"싸워 죽기는 쉬워도 길을 빌려주기는 어렵다(戰死易假道難)\"는 결의로 동래읍성을 지키다 순절하였고, 이 항전의 정신은 충렬사와 동래읍성역사축제로 오늘날까지 이어지고 있습니다. 개항 이후 일제강점기를 거치며 온천장이 관광지로 개발되었고, 1957년 1월 1일 구제 실시로 동래구가 공식 출범하였습니다. 이후 1975년 남구, 1980년 해운대구, 1988년 금정구·연제구 등이 잇따라 분구되어 오늘의 동래구 영역으로 정리되었으며, 1988년 5월 1일 자치구로 승격되었습니다.",
+  "intro": "동래구는 조선시대 동래도호부가 자리했던 부산 행정·군사의 옛 중심지로, 오늘날에도 온천장과 사직 일대를 아우르는 전통과 생활의 고장입니다. '동래(東萊)'라는 지명은 동쪽의 내산(萊山), 곧 신선이 산다는 봉래산에서 비롯되었다고 전하며, 757년 신라 경덕왕 때 동래군으로 개칭된 이래 천 년 넘게 이어져 온 유서 깊은 이름입니다. 온천천이 남북으로 관통하는 이 지역에는 우리나라에서 가장 오래된 온천 가운데 하나인 동래온천이 솟아, 예부터 목욕과 요양을 겸한 휴양지로 이름났습니다. 임진왜란 동래성 전투의 항전 정신을 기리는 충렬사와 동래읍성, 가야 문화를 증언하는 복천동 고분군 등 부산의 뿌리를 담은 문화유산이 밀집해 있습니다. 사직야구장과 부산종합운동장을 품어 프로 스포츠의 열기가 넘치는 한편, 명륜·수안·안락 일대의 오래된 주거지가 안정된 정주 여건을 이루고 있습니다.",
+  "landmarks": [
+    {
+      "description": "조선시대 동래도호부의 방어 성곽으로, 임진왜란 동래성 전투의 격전지입니다. 마안산 능선을 따라 동장대·서장대·북문·인생문 등이 복원되어 있어 옛 읍성의 규모를 가늠할 수 있습니다.",
+      "name": "동래읍성"
+    },
+    {
+      "description": "온천동 일대에 형성된 우리나라 최고(最古)의 온천 관광지로, 63℃ 안팎의 약알칼리성 식염천이 솟습니다. 대규모 목욕시설과 호텔, 동래파전 상권이 어우러진 부산의 대표적 온천 휴양지입니다.",
+      "name": "동래온천(온천장)"
+    },
+    {
+      "description": "사직동에 위치한 프로야구 롯데 자이언츠의 홈구장으로, 부산 스포츠 응원 문화의 상징 공간입니다. 인접한 부산종합운동장과 함께 각종 체육·문화 행사가 열리는 대규모 스포츠 단지를 이룹니다.",
+      "name": "사직야구장(부산종합운동장)"
+    },
+    {
+      "description": "임진왜란 때 부산에서 순절한 호국선열의 위패를 모신 사당으로, 동래부사 송상현과 부산진첨절제사 정발 등을 배향합니다. 마안산 자락에 자리해 매년 제향과 추모 행사가 거행되는 부산 호국의 성지입니다.",
+      "name": "충렬사"
+    }
+  ],
+  "nature_rest": [
+    {
+      "description": "구를 남북으로 관통하는 온천천을 따라 조성된 생태하천 산책로로, 자전거길과 징검다리, 수변 데크가 이어집니다. 봄이면 벚꽃이 만개해 부산을 대표하는 봄꽃 명소이자 주민들의 일상 휴식 공간입니다.",
+      "name": "온천천 시민공원"
+    },
+    {
+      "description": "금정산 기슭 온천동에 자리한 부산의 대표 자연공원으로, 화강암 기암과 울창한 수림이 어우러진 명승입니다. 1966년 개통된 우리나라 최장급 금강공원 케이블카를 타고 금정산 능선까지 오를 수 있습니다.",
+      "name": "금강공원"
+    },
+    {
+      "description": "말안장을 닮았다 하여 마안산으로 불리는 나지막한 산으로, 능선을 따라 동래읍성 성곽길이 이어집니다. 동장대·서장대에서 동래 시가지를 조망하며 역사와 자연을 함께 즐길 수 있는 도심 산책로입니다.",
+      "name": "마안산(동래읍성 산책로)"
+    },
+    {
+      "description": "금강공원 안에 자리한 전통예술 전수·공연 공간으로, 동래학춤·동래야류 등 무형유산의 계승 무대가 됩니다. 야외 놀이마당에서 민속 공연과 체험 행사가 열려 시민들의 여가·문화 휴식처로 활용됩니다.",
+      "name": "부산민속예술관"
+    }
+  ],
+  "org_slug": "kr-busan-dongnae",
+  "sido": "부산광역시",
+  "sigungu": "동래구",
+  "symbols": {
+    "bird": "학",
+    "flower": "매화",
+    "tree": "소나무"
+  },
+  "transport": "동래구는 부산 도시철도 여러 노선이 교차하는 교통 결절지로, 1호선은 온천장역·명륜역·동래역을 지나 도심과 노포·서면 방향을 잇습니다. 3호선은 미남역·사직역·종합운동장역을 통해 대저·수영 방면과 연결되며, 4호선은 미남역·동래역·수안역·낙민역·충렬사역·명장역을 거쳐 반송 방향으로 이어집니다. 특히 동래역은 1호선·4호선·동해선이 만나고 미남역은 3호선·4호선이 교차하는 환승 거점으로 기능합니다. 광역철도인 동해선 광역전철도 동래역·안락역·부산원동역을 지나 울산 방면 광역 통행을 담당합니다. 도로 교통으로는 남북을 관통하는 국도 7호선 중앙대로와 도심 고가인 번영로(광역시도 11호선)가 주요 축을 이루고, 국도 14호선이 동서 방향 통행을 보완합니다. 이처럼 지하철 환승망과 간선도로가 촘촘히 얽혀 부산 어느 방향으로든 접근성이 뛰어납니다."
+}
+  </script>
 </head>
 <body>
-  <main>
-    <header>
-      <p class="eyebrow">부산광역시</p>
-      <h1>동래구</h1>
-    </header>
-    <div class="content">
-      <section id="intro">
+<!-- 동래구 전용 템플릿 — "수증기 스크래치" 온천 감성 인터랙션.
+     우리나라 最古의 동래온천, 김 서린 목욕탕 거울처럼 화면 전체가 뿌옇게 흐려지고(backdrop-filter blur),
+     마우스/손끝으로 문지른 궤적만 선명해지는 scratch-off(닦아내기) 온천 UI.
+     ── SEO/접근성 계약 ──
+           <section id="intro">
+        <h2>지역 소개</h2>
+        <p>동래구는 조선시대 동래도호부가 자리했던 부산 행정·군사의 옛 중심지로, 오늘날에도 온천장과 사직 일대를 아우르는 전통과 생활의 고장입니다. &#x27;동래(東萊)&#x27;라는 지명은 동쪽의 내산(萊山), 곧 신선이 산다는 봉래산에서 비롯되었다고 전하며, 757년 신라 경덕왕 때 동래군으로 개칭된 이래 천 년 넘게 이어져 온 유서 깊은 이름입니다. 온천천이 남북으로 관통하는 이 지역에는 우리나라에서 가장 오래된 온천 가운데 하나인 동래온천이 솟아, 예부터 목욕과 요양을 겸한 휴양지로 이름났습니다. 임진왜란 동래성 전투의 항전 정신을 기리는 충렬사와 동래읍성, 가야 문화를 증언하는 복천동 고분군 등 부산의 뿌리를 담은 문화유산이 밀집해 있습니다. 사직야구장과 부산종합운동장을 품어 프로 스포츠의 열기가 넘치는 한편, 명륜·수안·안락 일대의 오래된 주거지가 안정된 정주 여건을 이루고 있습니다.</p>
+      </section>
+      <section id="facts">
+        <h2>주요 통계</h2>
+        <ul class="facts">
+          <li>인구: 약 273,654명 (2024)</li>
+          <li>면적: 16.63 km²</li>
+          <li>신설: 1957-01-01</li>
+        </ul>
+      </section>
+      <section id="history">
+        <h2>역사</h2>
+        <p>동래는 삼한시대 독로국(瀆盧國)에 뿌리를 두었으며 삼국시대에는 거칠산군(居漆山郡)이라 불리다가 757년 신라 경덕왕이 동래군으로 이름을 바꾸었습니다. 조선 명종 2년인 1547년에는 동래도호부로 승격되어 대일 외교와 국방을 총괄하는 경상도 동남 해안의 요충으로 자리 잡았고, 부사가 다스리는 관아 동래부 동헌이 정치의 중심이 되었습니다. 1592년 임진왜란이 일어나자 동래부사 송상현은 &quot;싸워 죽기는 쉬워도 길을 빌려주기는 어렵다(戰死易假道難)&quot;는 결의로 동래읍성을 지키다 순절하였고, 이 항전의 정신은 충렬사와 동래읍성역사축제로 오늘날까지 이어지고 있습니다. 개항 이후 일제강점기를 거치며 온천장이 관광지로 개발되었고, 1957년 1월 1일 구제 실시로 동래구가 공식 출범하였습니다. 이후 1975년 남구, 1980년 해운대구, 1988년 금정구·연제구 등이 잇따라 분구되어 오늘의 동래구 영역으로 정리되었으며, 1988년 5월 1일 자치구로 승격되었습니다.</p>
+      </section>
+      <section id="geography">
+        <h2>지리·자연환경</h2>
+        <p>동래구는 부산 중앙부 내륙에 자리하며 서쪽으로 부산진구, 남쪽으로 연제구, 북쪽으로 금정구, 동쪽으로 해운대구와 맞닿아 바다에 직접 면하지 않은 내륙형 자치구입니다. 서북쪽 경계에는 부산의 진산인 금정산 자락이 흘러내리고, 그 기슭의 금강공원 일대는 화강암 노두와 울창한 수림이 어우러진 명승지를 이룹니다. 구의 한복판을 온천천이 북에서 남으로 가로질러 흐르는데, 이는 금정산에서 발원하여 금정구·동래구·연제구를 거쳐 수영강으로 합류하는 지방하천으로 봄이면 벚꽃 산책로로 유명합니다. 동장대와 서장대가 있는 마안산(馬鞍山) 능선이 동래읍성의 자연 성벽 구실을 하며 시가지 동편을 감싸고, 도심 곳곳에서는 63℃ 안팎의 약알칼리성 식염천인 동래온천수가 솟아납니다. 대체로 온천천 유역의 평지에 시가지가 발달하고 서북쪽으로 갈수록 산지로 높아지는 지형을 보입니다. 면적은 약 16.63㎢로 부산 자치구 가운데 아담한 편에 속합니다.</p>
+      </section>
+      <section id="characteristics">
+        <h2>지역 특징</h2>
+        <p>동래구의 인구는 2024년 기준 약 27만 명으로, 명륜·수안·안락·명장 일대에 오래된 주거지가 자리해 안정적인 정주 인구를 유지하는 전형적인 도심 주거·행정 구역입니다. 관공서와 교육기관이 밀집해 옛 동래부 이래의 행정 중심 성격이 이어지며, 동래교육지원청과 동래향교가 이곳에 있어 부산 교육의 전통 거점으로 통합니다. 온천동 일대는 대규모 목욕시설과 호텔, 동래파전·곰장어로 대표되는 향토 먹거리 상권이 형성된 온천 관광지구입니다. 사직동에는 사직야구장(부산종합운동장)이 있어 프로야구 롯데 자이언츠의 홈구장으로서 부산 스포츠 응원 문화의 상징 공간이 되고 있습니다. 도심 재정비를 통한 아파트 단지 개발과 온천천 생태하천 복원이 병행되어, 전통 유산과 현대적 생활 인프라가 공존하는 것이 이 지역의 뚜렷한 특징입니다. 구화는 매화, 구목은 소나무, 구조는 학으로, 동래학춤으로 상징되는 학의 고장이기도 합니다.</p>
+      </section>
+      <section id="landmarks">
+        <h2>대표 명소</h2>
+        <ul>
+          <li><strong>동래읍성</strong> — 조선시대 동래도호부의 방어 성곽으로, 임진왜란 동래성 전투의 격전지입니다. 마안산 능선을 따라 동장대·서장대·북문·인생문 등이 복원되어 있어 옛 읍성의 규모를 가늠할 수 있습니다.</li>
+          <li><strong>동래온천(온천장)</strong> — 온천동 일대에 형성된 우리나라 최고(最古)의 온천 관광지로, 63℃ 안팎의 약알칼리성 식염천이 솟습니다. 대규모 목욕시설과 호텔, 동래파전 상권이 어우러진 부산의 대표적 온천 휴양지입니다.</li>
+          <li><strong>사직야구장(부산종합운동장)</strong> — 사직동에 위치한 프로야구 롯데 자이언츠의 홈구장으로, 부산 스포츠 응원 문화의 상징 공간입니다. 인접한 부산종합운동장과 함께 각종 체육·문화 행사가 열리는 대규모 스포츠 단지를 이룹니다.</li>
+          <li><strong>충렬사</strong> — 임진왜란 때 부산에서 순절한 호국선열의 위패를 모신 사당으로, 동래부사 송상현과 부산진첨절제사 정발 등을 배향합니다. 마안산 자락에 자리해 매년 제향과 추모 행사가 거행되는 부산 호국의 성지입니다.</li>
+        </ul>
+      </section>
+      <section id="heritage">
+        <h2>문화유산·문화시설</h2>
+        <ul>
+          <li><strong>복천동 고분군(사적)과 복천박물관</strong> — 복천동 구릉에 자리한 삼국·가야시대 고분군으로 1981년 사적으로 지정되었으며 9천여 점의 유물이 출토되었습니다. 인접한 복천박물관은 169기의 유구와 토기·철기류를 전시해 부산의 고대사를 조명하는 고고 전문 박물관입니다.</li>
+          <li><strong>동래부 동헌과 동래향교</strong> — 동래부 동헌은 옛 동래도호부 관아의 중심 건물로 부사가 정무를 보던 곳이며, 동래향교는 조선시대 지방 교육을 담당한 유교 교육기관입니다. 두 건물 모두 동래가 부산의 행정·교육 중심이었음을 증언하는 문화유산입니다.</li>
+          <li><strong>동래학춤</strong> — 동래 온천동 일대에서 전래된 전통 민속 무용으로, 학의 우아한 자태를 형상화한 즉흥적 춤사위가 특징입니다. 동래야류·동래지신밟기와 함께 동래 지역 전통 예술의 대표 종목으로 전승되고 있습니다.</li>
+          <li><strong>동래읍성역사축제</strong> — 임진왜란 동래성 전투와 송상현 부사의 항전 정신을 기리는 역사 체험형 축제입니다. 북문광장·문화회관·온천천 일원에서 동래부사행렬, 동래성전투 재현, 동래장터 운영 등이 펼쳐집니다.</li>
+        </ul>
+      </section>
+      <section id="nature">
+        <h2>자연·휴식</h2>
+        <ul>
+          <li><strong>온천천 시민공원</strong> — 구를 남북으로 관통하는 온천천을 따라 조성된 생태하천 산책로로, 자전거길과 징검다리, 수변 데크가 이어집니다. 봄이면 벚꽃이 만개해 부산을 대표하는 봄꽃 명소이자 주민들의 일상 휴식 공간입니다.</li>
+          <li><strong>금강공원</strong> — 금정산 기슭 온천동에 자리한 부산의 대표 자연공원으로, 화강암 기암과 울창한 수림이 어우러진 명승입니다. 1966년 개통된 우리나라 최장급 금강공원 케이블카를 타고 금정산 능선까지 오를 수 있습니다.</li>
+          <li><strong>마안산(동래읍성 산책로)</strong> — 말안장을 닮았다 하여 마안산으로 불리는 나지막한 산으로, 능선을 따라 동래읍성 성곽길이 이어집니다. 동장대·서장대에서 동래 시가지를 조망하며 역사와 자연을 함께 즐길 수 있는 도심 산책로입니다.</li>
+          <li><strong>부산민속예술관</strong> — 금강공원 안에 자리한 전통예술 전수·공연 공간으로, 동래학춤·동래야류 등 무형유산의 계승 무대가 됩니다. 야외 놀이마당에서 민속 공연과 체험 행사가 열려 시민들의 여가·문화 휴식처로 활용됩니다.</li>
+        </ul>
+      </section>
+      <section id="transport">
+        <h2>교통</h2>
+        <p>동래구는 부산 도시철도 여러 노선이 교차하는 교통 결절지로, 1호선은 온천장역·명륜역·동래역을 지나 도심과 노포·서면 방향을 잇습니다. 3호선은 미남역·사직역·종합운동장역을 통해 대저·수영 방면과 연결되며, 4호선은 미남역·동래역·수안역·낙민역·충렬사역·명장역을 거쳐 반송 방향으로 이어집니다. 특히 동래역은 1호선·4호선·동해선이 만나고 미남역은 3호선·4호선이 교차하는 환승 거점으로 기능합니다. 광역철도인 동해선 광역전철도 동래역·안락역·부산원동역을 지나 울산 방면 광역 통행을 담당합니다. 도로 교통으로는 남북을 관통하는 국도 7호선 중앙대로와 도심 고가인 번영로(광역시도 11호선)가 주요 축을 이루고, 국도 14호선이 동서 방향 통행을 보완합니다. 이처럼 지하철 환승망과 간선도로가 촘촘히 얽혀 부산 어느 방향으로든 접근성이 뛰어납니다.</p>
+      </section>
+      <section id="symbols">
+        <h2>지역 상징</h2>
+        <ul class="symbols">
+          <li>구화(꽃): 매화</li>
+          <li>구목(나무): 소나무</li>
+          <li>구조(새): 학</li>
+        </ul>
+      </section>
+      <section id="faq">
+        <h2>자주 묻는 질문</h2>
+        <div class="faq">
+          <details>
+            <summary>동래구라는 이름은 어디서 유래했나요?</summary>
+            <p>&#x27;동래(東萊)&#x27;는 동쪽의 내산(萊山), 곧 신선이 산다는 봉래산에서 비롯된 이름으로 전합니다. 757년 신라 경덕왕이 동래군으로 개칭한 이래 천 년 넘게 이어져 온 지명입니다.</p>
+          </details>
+          <details>
+            <summary>동래온천은 어떤 온천인가요?</summary>
+            <p>동래온천은 우리나라에서 가장 오래된 온천의 하나로, 수온이 63℃ 안팎인 약알칼리성 식염천입니다. 온천동 일대의 온천장 관광지구에 목욕시설과 호텔, 동래파전 상권이 형성되어 있습니다.</p>
+          </details>
+          <details>
+            <summary>동래구청은 어디에 있나요?</summary>
+            <p>동래구청은 명륜동 명륜로94번길 55에 위치합니다. 도시철도 1호선·4호선 동래역과 가까워 대중교통으로 접근하기 편리합니다.</p>
+          </details>
+          <details>
+            <summary>사직야구장은 어느 팀의 홈구장인가요?</summary>
+            <p>사직야구장(부산종합운동장 야구장)은 프로야구 롯데 자이언츠의 홈구장입니다. 사직동에 있으며 부산 스포츠 응원 문화의 상징적인 공간입니다.</p>
+          </details>
+          <details>
+            <summary>동래구에서 볼 수 있는 대표적인 역사 유적은 무엇인가요?</summary>
+            <p>임진왜란 항전의 현장인 동래읍성과 충렬사, 가야 문화를 보여주는 복천동 고분군과 복천박물관, 옛 관아 동래부 동헌 등이 있습니다. 매년 동래읍성역사축제로 이 역사가 재현됩니다.</p>
+          </details>
+          <details>
+            <summary>동래구에서 봄꽃 산책을 즐기려면 어디로 가면 좋나요?</summary>
+            <p>구를 남북으로 관통하는 온천천 시민공원이 부산의 대표적인 봄 벚꽃 명소입니다. 수변 산책로와 자전거길이 잘 조성되어 있어 봄철 꽃놀이와 산책을 함께 즐길 수 있습니다.</p>
+          </details>
+        </div>
+      </section>
+      <section id="links">
+        <h2>공식 링크</h2>
+        <ul>
+          <li><a href="https://www.dongnae.go.kr/" rel="noopener">동래구청 공식 홈페이지</a></li>
+          <li><a href="https://www.dongnae.go.kr/tour/index.dongnae" rel="noopener">동래구 문화관광</a></li>
+        </ul>
+      </section>
+      <section id="sources">
+        <h2>출처</h2>
+        <ul class="sources">
+          <li><a href="https://ko.wikipedia.org/wiki/%EB%8F%99%EB%9E%98%EA%B5%AC" rel="noopener">동래구 - 위키백과</a> (조회 2026-07-08)</li>
+          <li><a href="https://encykorea.aks.ac.kr/Article/E0066986" rel="noopener">부산광역시 동래구 - 한국민족문화대백과사전</a> (조회 2026-07-08)</li>
+          <li><a href="https://www.dongnae.go.kr/tour/index.dongnae" rel="noopener">동래구 문화관광 홈페이지</a> (조회 2026-07-08)</li>
+          <li><a href="https://ko.wikipedia.org/wiki/%EB%B6%80%EC%82%B0_%EB%B3%B5%EC%B2%9C%EB%8F%99_%EA%B3%A0%EB%B6%84%EA%B5%B0" rel="noopener">부산 복천동 고분군 - 위키백과</a> (조회 2026-07-08)</li>
+        </ul>
+      </section>(9섹션 실제 텍스트: intro/facts/history/geography/characteristics/landmarks/
+     heritage/nature/transport/symbols/faq/links/sources)가 DOM에 그대로 들어가 크롤링 가능.
+     스팀 레이어는 JS가 켜졌을 때만 body.steam-on에서 활성화되므로, JS가 꺼지면 텍스트는 처음부터 선명하게 읽힘.
+     canvas는 aria-hidden. reduced-motion이면 스팀 자체를 걸지 않음(닦지 않아도 전부 선명). -->
+<canvas id="dn-steam" aria-hidden="true"></canvas>
+<div id="dn-vapor" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+
+<main class="dn" id="dn-root">
+  <header class="dn-hero">
+    <p class="dn-eyebrow">부산광역시</p>
+    <h1 class="dn-title">동래구</h1>
+    <p class="dn-sub">천 년 온천이 솟는 김 서린 옛 고을</p>
+    <p class="dn-hint" data-jsonly>
+      <i aria-hidden="true">♨</i> 화면 위를 손끝으로 문질러 김을 닦아내 보세요
+    </p>
+    <div class="dn-temp" data-jsonly aria-hidden="true"><b id="dn-temp-val">37</b>°C</div>
+    <div class="dn-rule" aria-hidden="true"><span></span></div>
+  </header>
+
+  <div class="dn-content" id="dn-content">
+          <section id="intro">
         <h2>지역 소개</h2>
         <p>동래구는 조선시대 동래도호부가 자리했던 부산 행정·군사의 옛 중심지로, 오늘날에도 온천장과 사직 일대를 아우르는 전통과 생활의 고장입니다. &#x27;동래(東萊)&#x27;라는 지명은 동쪽의 내산(萊山), 곧 신선이 산다는 봉래산에서 비롯되었다고 전하며, 757년 신라 경덕왕 때 동래군으로 개칭된 이래 천 년 넘게 이어져 온 유서 깊은 이름입니다. 온천천이 남북으로 관통하는 이 지역에는 우리나라에서 가장 오래된 온천 가운데 하나인 동래온천이 솟아, 예부터 목욕과 요양을 겸한 휴양지로 이름났습니다. 임진왜란 동래성 전투의 항전 정신을 기리는 충렬사와 동래읍성, 가야 문화를 증언하는 복천동 고분군 등 부산의 뿌리를 담은 문화유산이 밀집해 있습니다. 사직야구장과 부산종합운동장을 품어 프로 스포츠의 열기가 넘치는 한편, 명륜·수안·안락 일대의 오래된 주거지가 안정된 정주 여건을 이루고 있습니다.</p>
       </section>
@@ -253,10 +459,484 @@ footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line);
           <li><a href="https://ko.wikipedia.org/wiki/%EB%B6%80%EC%82%B0_%EB%B3%B5%EC%B2%9C%EB%8F%99_%EA%B3%A0%EB%B6%84%EA%B5%B0" rel="noopener">부산 복천동 고분군 - 위키백과</a> (조회 2026-07-08)</li>
         </ul>
       </section>
-    </div>
-    <footer>
-      <p>이 페이지는 공개 자료를 바탕으로 작성된 동래구 지역 정보 페이지입니다.</p>
-    </footer>
-  </main>
+  </div>
+
+  <footer class="dn-foot">공개 자료를 바탕으로 작성된 동래구 지역 정보 · 부산광역시</footer>
+</main>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,400&family=Noto+Sans+KR:wght@400;500;700&display=swap');
+  @font-face{
+    font-family:'SeoulHangang';
+    src:local('서울한강체'),local('SeoulHangang'),local('Seoul Hangang');
+    font-weight:400 700; font-display:swap;
+  }
+  :root{
+    --steel:#4682B4;            /* 온천 미네랄수 · 강철빛 물색 */
+    --steel-deep:#2f5c80;
+    --steel-soft:#7fb0d6;
+    --brown:#8B4513;            /* 목조 온천장 · 나무 기둥 */
+    --brown-soft:#b5744a;
+    --brown-warm:#d99b6c;
+    --steam:#eef4f8;           /* 김·수증기 */
+    --paper:#f4efe7;
+    --ink:#26343f;
+    --ink-soft:#4a5b67;
+    --line:rgba(70,130,180,.18);
+    --card:rgba(255,255,255,.62);
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;}
+  body{
+    min-height:100%;
+    background:
+      radial-gradient(1200px 680px at 82% -10%, #dfeaf1 0%, #cfe0ea 40%, #bcd2df 100%) fixed,
+      linear-gradient(180deg,#e9f0f5,#d8e6ee) fixed;
+    color:var(--ink);
+    font-family:'Noto Sans KR','SeoulHangang',system-ui,sans-serif;
+    line-height:1.85; -webkit-font-smoothing:antialiased;
+  }
+
+  /* ── 스팀 캔버스: 화면 전체를 덮는 불투명 김. 닦은 자리(destination-out)만 뚫려 아래가 보임 ── */
+  #dn-steam{
+    position:fixed; inset:0; width:100%; height:100%;
+    z-index:5; pointer-events:none; display:none;
+  }
+  body.steam-on #dn-steam{display:block;}
+
+  /* ── 피어오르는 수증기 wisp (장식). 스팀이 켜졌을 때만 은은히 ── */
+  #dn-vapor{position:fixed; inset:0; z-index:4; pointer-events:none; overflow:hidden; display:none;}
+  body.steam-on #dn-vapor{display:block;}
+  #dn-vapor span{
+    position:absolute; bottom:-14vh; width:38vw; max-width:520px; aspect-ratio:1;
+    border-radius:50%;
+    background:radial-gradient(circle at 50% 60%, rgba(255,255,255,.55), rgba(238,244,248,0) 62%);
+    filter:blur(14px); opacity:0;
+    animation:dn-rise 15s linear infinite;
+  }
+  #dn-vapor span:nth-child(1){left:4%;  animation-delay:0s;    animation-duration:16s;}
+  #dn-vapor span:nth-child(2){left:24%; animation-delay:-6s;   animation-duration:19s;}
+  #dn-vapor span:nth-child(3){left:44%; animation-delay:-11s;  animation-duration:14s;}
+  #dn-vapor span:nth-child(4){left:62%; animation-delay:-3s;   animation-duration:21s;}
+  #dn-vapor span:nth-child(5){left:80%; animation-delay:-9s;   animation-duration:17s;}
+  #dn-vapor span:nth-child(6){left:90%; animation-delay:-14s;  animation-duration:20s;}
+  @keyframes dn-rise{
+    0%{transform:translateY(0) scale(.7); opacity:0;}
+    18%{opacity:.5;}
+    80%{opacity:.28;}
+    100%{transform:translateY(-118vh) scale(1.5); opacity:0;}
+  }
+
+  .dn{position:relative; z-index:2; max-width:820px; margin:0 auto; padding:0 1.3rem 5rem;}
+
+  /* ── 히어로 ── */
+  .dn-hero{text-align:center; padding:4.6rem 1rem 1.4rem; position:relative;}
+  .dn-eyebrow{
+    color:var(--steel-deep); letter-spacing:.5em; font-size:.74rem;
+    margin:0 0 1rem; font-weight:700; text-indent:.5em;
+  }
+  .dn-title{
+    font-family:'SeoulHangang','Noto Sans KR',sans-serif; font-weight:700;
+    font-size:4.1rem; line-height:1.02; margin:0; color:var(--steel-deep);
+    letter-spacing:.04em; text-shadow:0 2px 26px rgba(70,130,180,.28);
+  }
+  .dn-sub{
+    font-family:'Lora','Noto Sans KR',serif; font-style:italic;
+    color:var(--brown); font-size:1.06rem; margin:.75rem 0 0; letter-spacing:.01em;
+  }
+  .dn-hint{
+    display:none; color:var(--steel-deep); font-size:.82rem; margin:.9rem 0 0;
+    opacity:.86; font-weight:500;
+  }
+  .dn-hint i{font-style:normal; color:var(--brown-soft); margin-right:.2em;}
+  .dn-temp{
+    display:none; margin:.7rem auto 0; width:fit-content;
+    font-family:'Lora',serif; color:var(--brown); font-size:.82rem;
+    letter-spacing:.06em; opacity:.72;
+  }
+  .dn-temp b{font-weight:600; font-size:.95rem;}
+  .dn-rule{margin:1.5rem auto 0; width:130px; height:1px;
+    background:linear-gradient(90deg,transparent,var(--line),transparent); position:relative;}
+  .dn-rule span{
+    position:absolute; left:50%; top:-3px; width:7px; height:7px; border-radius:50%;
+    background:var(--steel-soft); transform:translateX(-50%);
+    box-shadow:0 0 12px var(--steel-soft);
+  }
+
+  /* ── 섹션 카드 = 온천장 창(窓)처럼 ── */
+  .dn-content section{
+    background:var(--card);
+    -webkit-backdrop-filter:blur(2px); backdrop-filter:blur(2px);
+    border:1px solid var(--line);
+    border-radius:16px;
+    padding:1.55rem 1.8rem; margin:1.15rem 0;
+    position:relative; overflow:hidden;
+    box-shadow:0 8px 30px rgba(47,92,128,.07);
+    transition:border-color .35s ease, transform .35s ease, box-shadow .35s ease;
+  }
+  .dn-content section::before{
+    content:""; position:absolute; left:0; top:1.4rem; bottom:1.4rem; width:3px;
+    border-radius:3px;
+    background:linear-gradient(180deg,var(--steel-soft),var(--brown-warm));
+    opacity:.7;
+  }
+  .dn-content section:hover{
+    border-color:rgba(70,130,180,.4); transform:translateY(-2px);
+    box-shadow:0 14px 40px rgba(47,92,128,.13);
+  }
+  .dn-content h2{
+    font-family:'SeoulHangang','Noto Sans KR',sans-serif; font-weight:700;
+    color:var(--steel-deep); font-size:1.42rem; margin:0 0 .7rem; letter-spacing:.01em;
+    display:flex; align-items:center; gap:.5rem;
+  }
+  .dn-content h2::before{
+    content:""; width:.62rem; height:.62rem; border-radius:50%; flex:none;
+    background:var(--brown-soft); box-shadow:0 0 0 4px rgba(181,116,74,.16);
+  }
+  .dn-content section p{margin:0; color:var(--ink-soft);}
+  .dn-content ul{margin:.55rem 0 0; padding-left:1.2rem;}
+  .dn-content li{margin:.5rem 0;}
+  .dn-content li strong{color:var(--brown); font-weight:700;}
+
+  /* 대표 명소 / 문화유산 / 자연·휴식 = 온천 타일 그리드 */
+  .dn-content #landmarks ul, .dn-content #heritage ul, .dn-content #nature ul{
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:.8rem; padding-left:0; list-style:none;
+  }
+  .dn-content #landmarks li, .dn-content #heritage li, .dn-content #nature li{
+    margin:0; padding:.95rem 1.05rem; border:1px solid var(--line); border-radius:13px;
+    background:linear-gradient(180deg,rgba(70,130,180,.09),rgba(139,69,19,.05));
+  }
+  .dn-content #landmarks li strong, .dn-content #heritage li strong, .dn-content #nature li strong{
+    display:block; margin-bottom:.28rem; color:var(--steel-deep);
+    font-family:'SeoulHangang','Noto Sans KR',sans-serif; font-size:1.04rem;
+  }
+
+  /* facts / symbols = 온천 팻말(badge) */
+  .dn-content .facts, .dn-content .symbols{
+    list-style:none; padding:1.05rem 1.35rem; margin:.6rem 0 0;
+    background:rgba(70,130,180,.1); border:1px dashed rgba(70,130,180,.34);
+    border-radius:14px; display:flex; flex-wrap:wrap; gap:.5rem 1.9rem;
+  }
+  .dn-content .facts li, .dn-content .symbols li{margin:0; color:var(--ink);}
+  .dn-content .facts li::before, .dn-content .symbols li::before{
+    content:"♨"; color:var(--brown-soft); margin-right:.4em; font-size:.9em;
+  }
+
+  /* FAQ = 김 서린 details */
+  .dn-content .faq details{border-bottom:1px solid var(--line); padding:.72rem 0;}
+  .dn-content .faq details:last-child{border-bottom:none;}
+  .dn-content .faq summary{
+    cursor:pointer; font-weight:700; color:var(--steel-deep); list-style:none;
+    position:relative; padding-right:1.6rem;
+  }
+  .dn-content .faq summary::-webkit-details-marker{display:none;}
+  .dn-content .faq summary::after{
+    content:"♨"; position:absolute; right:.1rem; top:0; color:var(--brown-soft);
+    transition:transform .35s ease;
+  }
+  .dn-content .faq details[open] summary::after{transform:rotate(18deg) scale(1.18); color:var(--steel);}
+  .dn-content .faq details p{margin:.55rem 0 .2rem; color:var(--ink-soft);}
+
+  .dn-content a{
+    color:var(--steel-deep); text-decoration:none;
+    border-bottom:1px solid rgba(70,130,180,.45); text-underline-offset:3px;
+  }
+  .dn-content a:hover{color:var(--brown); border-bottom-color:var(--brown);}
+  .dn-content .links ul, .dn-content #links ul{padding-left:1.2rem;}
+  .dn-content .sources{font-size:.86rem; color:var(--ink-soft);}
+  .dn-content .sources a{color:var(--ink-soft); border-bottom-color:rgba(74,91,103,.3);}
+
+  .dn-foot{
+    text-align:center; margin-top:2.8rem; color:var(--ink-soft); font-size:.8rem;
+    border-top:1px solid var(--line); padding-top:1.5rem; letter-spacing:.02em;
+  }
+
+  @media (max-width:560px){
+    .dn-title{font-size:2.9rem;}
+    .dn-content section{padding:1.35rem 1.25rem;}
+    .dn-content #landmarks ul, .dn-content #heritage ul, .dn-content #nature ul{grid-template-columns:1fr;}
+  }
+  /* 모션·스팀 최소화 사용자: 스팀 자체를 걸지 않으므로 body.steam-on이 안 붙음 → 전부 선명 */
+  @media (prefers-reduced-motion:reduce){
+    #dn-vapor span{animation:none; opacity:.18;}
+  }
+</style>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion:reduce)').matches;
+
+  // JS 살아있음 표시: 힌트/온도 노출
+  var hint = document.querySelector('.dn-hint[data-jsonly]');
+  var tempEl = document.querySelector('.dn-temp[data-jsonly]');
+  if (hint) hint.style.display = 'block';
+  if (tempEl) tempEl.style.display = 'block';
+
+  // region-data → 히어로에 온천/상징 한 줄 부가 (선택적 향상,       <section id="intro">
+        <h2>지역 소개</h2>
+        <p>동래구는 조선시대 동래도호부가 자리했던 부산 행정·군사의 옛 중심지로, 오늘날에도 온천장과 사직 일대를 아우르는 전통과 생활의 고장입니다. &#x27;동래(東萊)&#x27;라는 지명은 동쪽의 내산(萊山), 곧 신선이 산다는 봉래산에서 비롯되었다고 전하며, 757년 신라 경덕왕 때 동래군으로 개칭된 이래 천 년 넘게 이어져 온 유서 깊은 이름입니다. 온천천이 남북으로 관통하는 이 지역에는 우리나라에서 가장 오래된 온천 가운데 하나인 동래온천이 솟아, 예부터 목욕과 요양을 겸한 휴양지로 이름났습니다. 임진왜란 동래성 전투의 항전 정신을 기리는 충렬사와 동래읍성, 가야 문화를 증언하는 복천동 고분군 등 부산의 뿌리를 담은 문화유산이 밀집해 있습니다. 사직야구장과 부산종합운동장을 품어 프로 스포츠의 열기가 넘치는 한편, 명륜·수안·안락 일대의 오래된 주거지가 안정된 정주 여건을 이루고 있습니다.</p>
+      </section>
+      <section id="facts">
+        <h2>주요 통계</h2>
+        <ul class="facts">
+          <li>인구: 약 273,654명 (2024)</li>
+          <li>면적: 16.63 km²</li>
+          <li>신설: 1957-01-01</li>
+        </ul>
+      </section>
+      <section id="history">
+        <h2>역사</h2>
+        <p>동래는 삼한시대 독로국(瀆盧國)에 뿌리를 두었으며 삼국시대에는 거칠산군(居漆山郡)이라 불리다가 757년 신라 경덕왕이 동래군으로 이름을 바꾸었습니다. 조선 명종 2년인 1547년에는 동래도호부로 승격되어 대일 외교와 국방을 총괄하는 경상도 동남 해안의 요충으로 자리 잡았고, 부사가 다스리는 관아 동래부 동헌이 정치의 중심이 되었습니다. 1592년 임진왜란이 일어나자 동래부사 송상현은 &quot;싸워 죽기는 쉬워도 길을 빌려주기는 어렵다(戰死易假道難)&quot;는 결의로 동래읍성을 지키다 순절하였고, 이 항전의 정신은 충렬사와 동래읍성역사축제로 오늘날까지 이어지고 있습니다. 개항 이후 일제강점기를 거치며 온천장이 관광지로 개발되었고, 1957년 1월 1일 구제 실시로 동래구가 공식 출범하였습니다. 이후 1975년 남구, 1980년 해운대구, 1988년 금정구·연제구 등이 잇따라 분구되어 오늘의 동래구 영역으로 정리되었으며, 1988년 5월 1일 자치구로 승격되었습니다.</p>
+      </section>
+      <section id="geography">
+        <h2>지리·자연환경</h2>
+        <p>동래구는 부산 중앙부 내륙에 자리하며 서쪽으로 부산진구, 남쪽으로 연제구, 북쪽으로 금정구, 동쪽으로 해운대구와 맞닿아 바다에 직접 면하지 않은 내륙형 자치구입니다. 서북쪽 경계에는 부산의 진산인 금정산 자락이 흘러내리고, 그 기슭의 금강공원 일대는 화강암 노두와 울창한 수림이 어우러진 명승지를 이룹니다. 구의 한복판을 온천천이 북에서 남으로 가로질러 흐르는데, 이는 금정산에서 발원하여 금정구·동래구·연제구를 거쳐 수영강으로 합류하는 지방하천으로 봄이면 벚꽃 산책로로 유명합니다. 동장대와 서장대가 있는 마안산(馬鞍山) 능선이 동래읍성의 자연 성벽 구실을 하며 시가지 동편을 감싸고, 도심 곳곳에서는 63℃ 안팎의 약알칼리성 식염천인 동래온천수가 솟아납니다. 대체로 온천천 유역의 평지에 시가지가 발달하고 서북쪽으로 갈수록 산지로 높아지는 지형을 보입니다. 면적은 약 16.63㎢로 부산 자치구 가운데 아담한 편에 속합니다.</p>
+      </section>
+      <section id="characteristics">
+        <h2>지역 특징</h2>
+        <p>동래구의 인구는 2024년 기준 약 27만 명으로, 명륜·수안·안락·명장 일대에 오래된 주거지가 자리해 안정적인 정주 인구를 유지하는 전형적인 도심 주거·행정 구역입니다. 관공서와 교육기관이 밀집해 옛 동래부 이래의 행정 중심 성격이 이어지며, 동래교육지원청과 동래향교가 이곳에 있어 부산 교육의 전통 거점으로 통합니다. 온천동 일대는 대규모 목욕시설과 호텔, 동래파전·곰장어로 대표되는 향토 먹거리 상권이 형성된 온천 관광지구입니다. 사직동에는 사직야구장(부산종합운동장)이 있어 프로야구 롯데 자이언츠의 홈구장으로서 부산 스포츠 응원 문화의 상징 공간이 되고 있습니다. 도심 재정비를 통한 아파트 단지 개발과 온천천 생태하천 복원이 병행되어, 전통 유산과 현대적 생활 인프라가 공존하는 것이 이 지역의 뚜렷한 특징입니다. 구화는 매화, 구목은 소나무, 구조는 학으로, 동래학춤으로 상징되는 학의 고장이기도 합니다.</p>
+      </section>
+      <section id="landmarks">
+        <h2>대표 명소</h2>
+        <ul>
+          <li><strong>동래읍성</strong> — 조선시대 동래도호부의 방어 성곽으로, 임진왜란 동래성 전투의 격전지입니다. 마안산 능선을 따라 동장대·서장대·북문·인생문 등이 복원되어 있어 옛 읍성의 규모를 가늠할 수 있습니다.</li>
+          <li><strong>동래온천(온천장)</strong> — 온천동 일대에 형성된 우리나라 최고(最古)의 온천 관광지로, 63℃ 안팎의 약알칼리성 식염천이 솟습니다. 대규모 목욕시설과 호텔, 동래파전 상권이 어우러진 부산의 대표적 온천 휴양지입니다.</li>
+          <li><strong>사직야구장(부산종합운동장)</strong> — 사직동에 위치한 프로야구 롯데 자이언츠의 홈구장으로, 부산 스포츠 응원 문화의 상징 공간입니다. 인접한 부산종합운동장과 함께 각종 체육·문화 행사가 열리는 대규모 스포츠 단지를 이룹니다.</li>
+          <li><strong>충렬사</strong> — 임진왜란 때 부산에서 순절한 호국선열의 위패를 모신 사당으로, 동래부사 송상현과 부산진첨절제사 정발 등을 배향합니다. 마안산 자락에 자리해 매년 제향과 추모 행사가 거행되는 부산 호국의 성지입니다.</li>
+        </ul>
+      </section>
+      <section id="heritage">
+        <h2>문화유산·문화시설</h2>
+        <ul>
+          <li><strong>복천동 고분군(사적)과 복천박물관</strong> — 복천동 구릉에 자리한 삼국·가야시대 고분군으로 1981년 사적으로 지정되었으며 9천여 점의 유물이 출토되었습니다. 인접한 복천박물관은 169기의 유구와 토기·철기류를 전시해 부산의 고대사를 조명하는 고고 전문 박물관입니다.</li>
+          <li><strong>동래부 동헌과 동래향교</strong> — 동래부 동헌은 옛 동래도호부 관아의 중심 건물로 부사가 정무를 보던 곳이며, 동래향교는 조선시대 지방 교육을 담당한 유교 교육기관입니다. 두 건물 모두 동래가 부산의 행정·교육 중심이었음을 증언하는 문화유산입니다.</li>
+          <li><strong>동래학춤</strong> — 동래 온천동 일대에서 전래된 전통 민속 무용으로, 학의 우아한 자태를 형상화한 즉흥적 춤사위가 특징입니다. 동래야류·동래지신밟기와 함께 동래 지역 전통 예술의 대표 종목으로 전승되고 있습니다.</li>
+          <li><strong>동래읍성역사축제</strong> — 임진왜란 동래성 전투와 송상현 부사의 항전 정신을 기리는 역사 체험형 축제입니다. 북문광장·문화회관·온천천 일원에서 동래부사행렬, 동래성전투 재현, 동래장터 운영 등이 펼쳐집니다.</li>
+        </ul>
+      </section>
+      <section id="nature">
+        <h2>자연·휴식</h2>
+        <ul>
+          <li><strong>온천천 시민공원</strong> — 구를 남북으로 관통하는 온천천을 따라 조성된 생태하천 산책로로, 자전거길과 징검다리, 수변 데크가 이어집니다. 봄이면 벚꽃이 만개해 부산을 대표하는 봄꽃 명소이자 주민들의 일상 휴식 공간입니다.</li>
+          <li><strong>금강공원</strong> — 금정산 기슭 온천동에 자리한 부산의 대표 자연공원으로, 화강암 기암과 울창한 수림이 어우러진 명승입니다. 1966년 개통된 우리나라 최장급 금강공원 케이블카를 타고 금정산 능선까지 오를 수 있습니다.</li>
+          <li><strong>마안산(동래읍성 산책로)</strong> — 말안장을 닮았다 하여 마안산으로 불리는 나지막한 산으로, 능선을 따라 동래읍성 성곽길이 이어집니다. 동장대·서장대에서 동래 시가지를 조망하며 역사와 자연을 함께 즐길 수 있는 도심 산책로입니다.</li>
+          <li><strong>부산민속예술관</strong> — 금강공원 안에 자리한 전통예술 전수·공연 공간으로, 동래학춤·동래야류 등 무형유산의 계승 무대가 됩니다. 야외 놀이마당에서 민속 공연과 체험 행사가 열려 시민들의 여가·문화 휴식처로 활용됩니다.</li>
+        </ul>
+      </section>
+      <section id="transport">
+        <h2>교통</h2>
+        <p>동래구는 부산 도시철도 여러 노선이 교차하는 교통 결절지로, 1호선은 온천장역·명륜역·동래역을 지나 도심과 노포·서면 방향을 잇습니다. 3호선은 미남역·사직역·종합운동장역을 통해 대저·수영 방면과 연결되며, 4호선은 미남역·동래역·수안역·낙민역·충렬사역·명장역을 거쳐 반송 방향으로 이어집니다. 특히 동래역은 1호선·4호선·동해선이 만나고 미남역은 3호선·4호선이 교차하는 환승 거점으로 기능합니다. 광역철도인 동해선 광역전철도 동래역·안락역·부산원동역을 지나 울산 방면 광역 통행을 담당합니다. 도로 교통으로는 남북을 관통하는 국도 7호선 중앙대로와 도심 고가인 번영로(광역시도 11호선)가 주요 축을 이루고, 국도 14호선이 동서 방향 통행을 보완합니다. 이처럼 지하철 환승망과 간선도로가 촘촘히 얽혀 부산 어느 방향으로든 접근성이 뛰어납니다.</p>
+      </section>
+      <section id="symbols">
+        <h2>지역 상징</h2>
+        <ul class="symbols">
+          <li>구화(꽃): 매화</li>
+          <li>구목(나무): 소나무</li>
+          <li>구조(새): 학</li>
+        </ul>
+      </section>
+      <section id="faq">
+        <h2>자주 묻는 질문</h2>
+        <div class="faq">
+          <details>
+            <summary>동래구라는 이름은 어디서 유래했나요?</summary>
+            <p>&#x27;동래(東萊)&#x27;는 동쪽의 내산(萊山), 곧 신선이 산다는 봉래산에서 비롯된 이름으로 전합니다. 757년 신라 경덕왕이 동래군으로 개칭한 이래 천 년 넘게 이어져 온 지명입니다.</p>
+          </details>
+          <details>
+            <summary>동래온천은 어떤 온천인가요?</summary>
+            <p>동래온천은 우리나라에서 가장 오래된 온천의 하나로, 수온이 63℃ 안팎인 약알칼리성 식염천입니다. 온천동 일대의 온천장 관광지구에 목욕시설과 호텔, 동래파전 상권이 형성되어 있습니다.</p>
+          </details>
+          <details>
+            <summary>동래구청은 어디에 있나요?</summary>
+            <p>동래구청은 명륜동 명륜로94번길 55에 위치합니다. 도시철도 1호선·4호선 동래역과 가까워 대중교통으로 접근하기 편리합니다.</p>
+          </details>
+          <details>
+            <summary>사직야구장은 어느 팀의 홈구장인가요?</summary>
+            <p>사직야구장(부산종합운동장 야구장)은 프로야구 롯데 자이언츠의 홈구장입니다. 사직동에 있으며 부산 스포츠 응원 문화의 상징적인 공간입니다.</p>
+          </details>
+          <details>
+            <summary>동래구에서 볼 수 있는 대표적인 역사 유적은 무엇인가요?</summary>
+            <p>임진왜란 항전의 현장인 동래읍성과 충렬사, 가야 문화를 보여주는 복천동 고분군과 복천박물관, 옛 관아 동래부 동헌 등이 있습니다. 매년 동래읍성역사축제로 이 역사가 재현됩니다.</p>
+          </details>
+          <details>
+            <summary>동래구에서 봄꽃 산책을 즐기려면 어디로 가면 좋나요?</summary>
+            <p>구를 남북으로 관통하는 온천천 시민공원이 부산의 대표적인 봄 벚꽃 명소입니다. 수변 산책로와 자전거길이 잘 조성되어 있어 봄철 꽃놀이와 산책을 함께 즐길 수 있습니다.</p>
+          </details>
+        </div>
+      </section>
+      <section id="links">
+        <h2>공식 링크</h2>
+        <ul>
+          <li><a href="https://www.dongnae.go.kr/" rel="noopener">동래구청 공식 홈페이지</a></li>
+          <li><a href="https://www.dongnae.go.kr/tour/index.dongnae" rel="noopener">동래구 문화관광</a></li>
+        </ul>
+      </section>
+      <section id="sources">
+        <h2>출처</h2>
+        <ul class="sources">
+          <li><a href="https://ko.wikipedia.org/wiki/%EB%8F%99%EB%9E%98%EA%B5%AC" rel="noopener">동래구 - 위키백과</a> (조회 2026-07-08)</li>
+          <li><a href="https://encykorea.aks.ac.kr/Article/E0066986" rel="noopener">부산광역시 동래구 - 한국민족문화대백과사전</a> (조회 2026-07-08)</li>
+          <li><a href="https://www.dongnae.go.kr/tour/index.dongnae" rel="noopener">동래구 문화관광 홈페이지</a> (조회 2026-07-08)</li>
+          <li><a href="https://ko.wikipedia.org/wiki/%EB%B6%80%EC%82%B0_%EB%B3%B5%EC%B2%9C%EB%8F%99_%EA%B3%A0%EB%B6%84%EA%B5%B0" rel="noopener">부산 복천동 고분군 - 위키백과</a> (조회 2026-07-08)</li>
+        </ul>
+      </section> 위에 얹기만)
+  try{
+    var raw = document.getElementById('region-data');
+    if (raw){
+      var data = JSON.parse(raw.textContent);
+      var bits = [];
+      if (data && data.symbols){
+        var s = data.symbols;
+        if (s.flower) bits.push('구화 ' + s.flower);
+        if (s.tree)   bits.push('구목 ' + s.tree);
+        if (s.bird)   bits.push('구조 ' + s.bird);
+      }
+      if (bits.length){
+        var badge = document.createElement('p');
+        badge.className = 'dn-sub';
+        badge.style.cssText = 'font-size:.84rem;font-style:normal;margin-top:.35rem;color:#7a5030;opacity:.9;';
+        badge.textContent = bits.join('  ·  ');
+        var sub = document.querySelector('.dn-hero .dn-sub');
+        if (sub) sub.parentNode.insertBefore(badge, sub.nextSibling);
+      }
+    }
+  }catch(e){ /* 데이터 없어도 콘텐츠는 그대로 노출 */ }
+
+  var canvas = document.getElementById('dn-steam');
+  if (!canvas || !canvas.getContext){
+    return; // 스팀 미지원 → 이미 선명하므로 콘텐츠 그대로
+  }
+
+  // reduced-motion: 스팀을 걸지 않음(닦을 필요 없이 전부 선명). vapor만 CSS로 정적 표현.
+  if (reduce){
+    document.body.classList.add('steam-vapor-only');
+    var v = document.getElementById('dn-vapor');
+    if (v) v.style.display = 'block';
+    if (hint) hint.style.display = 'none';
+    if (tempEl) tempEl.style.display = 'none';
+    return;
+  }
+
+  // 여기서부터 스팀 활성화: 화면이 뿌옇게 덮이고, 문지른 자리만 뚫린다.
+  document.body.classList.add('steam-on');
+
+  var ctx = canvas.getContext('2d');
+  var W, H, dpr = Math.min(window.devicePixelRatio || 1, 2);
+
+  function resize(){
+    W = innerWidth; H = innerHeight;
+    canvas.width = Math.floor(W * dpr);
+    canvas.height = Math.floor(H * dpr);
+    canvas.style.width = W + 'px';
+    canvas.style.height = H + 'px';
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    paintFog();          // 리사이즈 시 김 다시 채움(닦은 흔적은 자연히 재응결)
+  }
+
+  // 김 서림: 반투명 뿌연 필름 + 미세한 결
+  function paintFog(){
+    ctx.globalCompositeOperation = 'source-over';
+    ctx.clearRect(0, 0, W, H);
+    var g = ctx.createLinearGradient(0, 0, 0, H);
+    g.addColorStop(0, 'rgba(240,246,250,0.90)');
+    g.addColorStop(0.5, 'rgba(230,240,246,0.93)');
+    g.addColorStop(1, 'rgba(222,234,242,0.95)');
+    ctx.fillStyle = g;
+    ctx.fillRect(0, 0, W, H);
+    // 미네랄/나무빛 얼룩 몇 점으로 온천 유리 질감
+    var blobs = [[0.18,0.22,'70,130,180'],[0.78,0.30,'139,69,19'],
+                 [0.55,0.7,'70,130,180'],[0.30,0.82,'139,69,19']];
+    for (var i=0;i<blobs.length;i++){
+      var b = blobs[i];
+      var rg = ctx.createRadialGradient(b[0]*W,b[1]*H,0, b[0]*W,b[1]*H, Math.max(W,H)*0.22);
+      rg.addColorStop(0,'rgba('+b[2]+',0.10)');
+      rg.addColorStop(1,'rgba('+b[2]+',0)');
+      ctx.fillStyle = rg; ctx.fillRect(0,0,W,H);
+    }
+  }
+
+  resize();
+  addEventListener('resize', resize);
+
+  // 닦아내기: destination-out으로 원형 지우개. 부드러운 가장자리 위해 방사형 알파.
+  function wipe(x, y, r){
+    ctx.globalCompositeOperation = 'destination-out';
+    var g = ctx.createRadialGradient(x, y, 0, x, y, r);
+    g.addColorStop(0, 'rgba(0,0,0,1)');
+    g.addColorStop(0.65, 'rgba(0,0,0,0.9)');
+    g.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.fillStyle = g;
+    ctx.beginPath();
+    ctx.arc(x, y, r, 0, Math.PI * 2);
+    ctx.fill();
+  }
+
+  var last = null, cleared = 0, total = 0, tempAt = 37;
+  function markTemp(){
+    // 닦을수록 아래 뜨거운 온천수(63℃)가 드러나는 감성 → 온도 표시 상승
+    if (!tempEl) return;
+    var target = 37 + Math.min(26, cleared * 0.9);
+    tempAt += (target - tempAt) * 0.12;
+    var valEl = document.getElementById('dn-temp-val');
+    if (valEl) valEl.textContent = Math.round(tempAt);
+  }
+
+  function moveTo(x, y){
+    var r = 46;
+    if (last){
+      // 두 점 사이를 이어 매끄러운 닦임 궤적
+      var dx = x - last.x, dy = y - last.y;
+      var dist = Math.hypot(dx, dy);
+      var steps = Math.max(1, Math.floor(dist / (r * 0.42)));
+      for (var i = 1; i <= steps; i++){
+        wipe(last.x + dx * (i/steps), last.y + dy * (i/steps), r);
+      }
+      cleared += dist / 900;
+    } else {
+      wipe(x, y, r);
+      cleared += 0.4;
+    }
+    last = { x:x, y:y };
+    markTemp();
+  }
+
+  addEventListener('mousemove', function(e){ moveTo(e.clientX, e.clientY); }, { passive:true });
+  addEventListener('mouseleave', function(){ last = null; });
+  addEventListener('touchstart', function(e){
+    if (e.touches[0]){ last = null; moveTo(e.touches[0].clientX, e.touches[0].clientY); }
+  }, { passive:true });
+  addEventListener('touchmove', function(e){
+    if (e.touches[0]) moveTo(e.touches[0].clientX, e.touches[0].clientY);
+  }, { passive:true });
+
+  // 스크롤하면 새 화면 영역이 김에 덮인 채 나타나므로, last 초기화(궤적 튐 방지)
+  addEventListener('scroll', function(){ last = null; }, { passive:true });
+
+  // 서서히 김이 다시 응결(re-fog): 닦은 자리가 아주 천천히 흐려져 온천 감성 유지.
+  // 콘텐츠 접근을 막지 않도록 매우 옅게, 그리고 사용자가 계속 문지르면 다시 뚫림.
+  var refogTimer = 0;
+  function refog(){
+    refogTimer++;
+    // ~5초에 한 번, 전체에 아주 얇은 김 한 겹만 덧입힘
+    if (refogTimer % 300 === 0){
+      ctx.globalCompositeOperation = 'source-over';
+      ctx.fillStyle = 'rgba(233,241,247,0.05)';
+      ctx.fillRect(0, 0, W, H);
+    }
+    requestAnimationFrame(refog);
+  }
+  requestAnimationFrame(refog);
+
+  // 접근성: 키보드 전용/포인터 없는 환경 대비 — 아무 키나 누르면 스팀을 통째로 걷어 전부 선명하게.
+  addEventListener('keydown', function(e){
+    if (e.key === 'Tab' || e.key === 'Enter' || e.key === ' ' || e.key === 'Escape'){
+      ctx.globalCompositeOperation = 'destination-out';
+      ctx.fillStyle = 'rgba(0,0,0,1)';
+      ctx.fillRect(0, 0, W, H);
+    }
+  });
+})();
+</script>
 </body>
 </html>
